@@ -26,6 +26,14 @@ body {
     height: 100px;
 }
 
+.logo h1 span {
+    margin: 0;
+}
+
+.logo h1 span:nth-child(2) {
+    color: rgb(22, 173, 70);
+}
+
 form {
     padding-bottom: 64px;
 }
@@ -33,6 +41,8 @@ form {
 .team {
     display: flex;
     gap: 64px;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .team img {
@@ -75,4 +85,15 @@ form {
   ß
   .submit-button:hover {
     background-color: #45a049;
+  }
+
+  hr {
+    color: #000;
+  }
+
+  footer {
+    min-width: 100%;
+    margin: 4rem auto 2rem auto;
+    padding: 2rem;
+    border-top: 1px solid #000;
   }
